@@ -7,7 +7,7 @@ public class Execute {
 
     public static void main(String[] args) {
 
-        // Credencias definidas no docker-compose da imagem
+        // Credenciais definidas no docker-compose da imagem
         RedisURI redisURI = RedisURI.create("redis://batata123@127.0.0.1:6379");
 
         // Conectando com o RedisClient
