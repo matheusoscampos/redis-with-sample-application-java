@@ -7,8 +7,8 @@ em um container docker.
 
 ``` docker-compose -f docker/docker-compose.yml up -d --build ```
 
-Na classe Execute basta executar o método main.
+Na classe ```Execute.java``` basta executar o método main.
 
-Excluir todas as imagens do docker:
+Para excluir todas as imagens do docker, basta executar:
 
 ``` docker-compose -f .\docker\docker-compose.yml down -v --remove-orphans ```
